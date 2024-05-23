@@ -15,7 +15,7 @@ public class OnTrack {
         feedbacks = new HashMap<>();
     }
 
-    
+    /*Email notification test comment*/
     public void addUser(String userId, String password) {
         users.put(userId, password);
         notifications.put(userId, new ArrayList<>());
